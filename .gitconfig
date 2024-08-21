@@ -1,0 +1,8 @@
+[user]
+	name = Gent Semaj
+	email = me@ycc.dev
+	signingkey = 2D76C57BF6BEADC4
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
