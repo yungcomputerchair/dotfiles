@@ -14,6 +14,7 @@ compinit
 
 export PATH=$PATH:$HOME/.local/bin
 alias ls='ls --color=auto'
+alias ll='ls -alh'
 alias grep='grep --color=auto'
 
 # Oh My Posh setup
