@@ -12,6 +12,15 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# History search stuff
+autoload -U up-line-or-beginning-search
+autoload -U down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+bindkey "^[[A" up-line-or-beginning-search
+bindkey "^[[B" down-line-or-beginning-search
+# End history search stuff
+
 export PATH=$PATH:$HOME/.local/bin
 alias ls='ls --color=auto'
 alias ll='ls -alh'
